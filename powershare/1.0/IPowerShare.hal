@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package vendor.ouvrir.powershare@1.0;
+package vendor.lineage.powershare@1.0;
 
 interface IPowerShare {
     isEnabled() generates (bool rc);

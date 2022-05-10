@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package vendor.ouvrir.livedisplay@2.0;
+package vendor.lineage.livedisplay@2.0;
 
 struct Range {
     int32_t max;

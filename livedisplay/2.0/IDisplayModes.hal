@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package vendor.ouvrir.livedisplay@2.0;
+package vendor.lineage.livedisplay@2.0;
 
 interface IDisplayModes {
     getDisplayModes() generates (vec<DisplayMode> modes);
