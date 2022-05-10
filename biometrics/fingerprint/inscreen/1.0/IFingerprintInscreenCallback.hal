@@ -1,11 +1,11 @@
 /*
- * Copyright (C) 2018-2019 The LineageOS Project
+ * Copyright (C) 2019 The LineageOS Project
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
  * You may obtain a copy of the License at
  *
- *      http://www.apache.org/licenses/LICENSE-2.0
+ *	http://www.apache.org/licenses/LICENSE-2.0
  *
  * Unless required by applicable law or agreed to in writing, software
  * distributed under the License is distributed on an "AS IS" BASIS,
@@ -14,9 +14,13 @@
  * limitations under the License.
  */
 
-package vendor.ouvrir.touch@1.0;
+package vendor.ouvrir.biometrics.fingerprint.inscreen@1.0;
 
-interface IGloveMode {
-    isEnabled() generates (bool rc);
-    setEnabled(bool enabled) generates (bool rc);
+/**
+ * IFingerprintInscreenCallback is the callback interface to
+ * {@link IFingerprintInscreen.setCallback}.
+ */
+interface IFingerprintInscreenCallback {
+    oneway onFingerDown();
+    oneway onFingerUp();
 };
